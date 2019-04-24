@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	color:grey;
 }
 ol, ul {
 	list-style: none;
@@ -64,3 +65,148 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+.container{
+	width:60%;
+	margin: 0 auto;
+}
+
+
+
+
+
+nav a{
+	padding:20px;
+	text-decoration:none;
+	color:grey;
+	font:italic bold 12px/30px Georgia, serif;
+}
+
+header{
+	margin-bottom:20px;
+}
+
+footer{
+	margin-bottom:35px;
+}
+
+
+
+h1{
+	font-size: 30px;
+}
+
+h2{
+	font-size: 20px;
+}
+
+hr{
+	margin:30px 0;
+}
+
+section{ /* cant get space between */ 
+	display:flex;
+	justify-items: space-between;
+}
+
+#nav-container{
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+	margin:20px 0px;
+}
+
+
+.address{
+	line-height:2;
+	text-align:center;
+}
+
+
+.copy{
+	text-align:center;
+	color:rgb(21, 59, 141);
+	margin-top: 30px;
+}
+
+.facts{
+	color:black;
+	font-size:18px;
+}
+
+.facts ul{ /* bullet alignment was off*/ 
+	list-style: square;
+	margin-left:20px;
+}
+
+.facts p{
+	margin-bottom:10px;
+}
+
+
+.logo{
+	margin-left:50px;
+}
+
+.offer-backg{
+	background-color: lightgray;
+	border: 1px solid black;
+}
+
+.offer{
+	padding:20px;
+	margin:5px;
+	min-width:200px;
+	flex-wrap:wrap;
+}
+
+.offer p{
+	margin-bottom:20px;
+}
+
+button{
+	padding:5px 8px;
+	border:1px solid rgb(113, 155, 202);
+	color:rgb(21, 59, 141);
+	border-radius: 5px;
+}
+
+button:hover{
+	background-color:lightblue;
+	color:white;
+	font-weight: bold;
+}
+
+.offer h2{
+	color:rgb(21, 59, 141);
+}
+
+
+.pad{
+	padding-right:20px;
+}
+
+.services-header-img{
+	width:100%;
+}
+
+
+.img-cont{
+	margin:30px 0px;
+}
+
+.img-cont img{
+	width:100%;
+}
+
+.head-img-cont{
+	display:flex;
+	justify-content: space-around;
+	align-items:center;
+	margin-top:50px;
+}
+
+.head-img-cont h1{
+	font-size:80px;
+}
