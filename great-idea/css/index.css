@@ -137,7 +137,7 @@ section{ /* cant get space between */
 
 .facts ul{ /* bullet alignment was off*/ 
 	list-style: square;
-	margin-left:20px;
+	list-style-position: inside
 }
 
 .facts p{
