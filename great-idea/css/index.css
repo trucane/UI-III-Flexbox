@@ -75,7 +75,9 @@ h1, h2, h3, h4, h5 {
 
 
 
-
+main{
+	margin-top:110px;
+}
 nav a{
 	padding:20px;
 	text-decoration:none;
@@ -84,7 +86,10 @@ nav a{
 }
 
 header{
-	margin-bottom:20px;
+	position: fixed;
+	top:0;
+	background:white;
+	width:60%;
 }
 
 footer{
@@ -162,11 +167,13 @@ section{ /* cant get space between */
 .offer-double{
 	padding:20px;
 	width:48%;
+	border-radius:10px;
 }
 
 .offer-tripl{
 	padding:20px;
 	width:32%;
+	border-radius:10px;
 }
 
 section p{
