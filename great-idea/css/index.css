@@ -107,8 +107,11 @@ hr{
 
 section{ /* cant get space between */ 
 	display:flex;
-	justify-items: space-between;
+	justify-content: space-between;
+	margin-bottom:30px;
 }
+
+
 
 #nav-container{
 	display:flex;
@@ -154,14 +157,19 @@ section{ /* cant get space between */
 	border: 1px solid black;
 }
 
-.offer{
+
+
+.offer-double{
 	padding:20px;
-	margin:5px;
-	min-width:200px;
-	flex-wrap:wrap;
+	width:48%;
 }
 
-.offer p{
+.offer-tripl{
+	padding:20px;
+	width:32%;
+}
+
+section p{
 	margin-bottom:20px;
 }
 
